@@ -1,5 +1,5 @@
-# JKA_YBEProxy
-Educational project on the creation of a proxy between the server engine and the game module of the game STAR WARS™ Jedi Knight - Jedi Academy™
+# JKA Proxy Plus
+Custom proxy between the server engine and the game module of the game STAR WARS™ Jedi Knight - Jedi Academy™ based on original [Yberion Proxy](https://github.com/Yberion/JKA_YBEProxy) project.
 
 ## Compilation
 
@@ -7,13 +7,14 @@ To compile a 32bits version on a 64bits linux distribution add the following def
 
 ``cmake .. -DTARGET_ARCH=x86``
 
-Patchnote : https://hackmd.io/E6LOdJOVQBi4pr1S7z11UA
+- Patchnote : https://hackmd.io/E6LOdJOVQBi4pr1S7z11UA
+- Todo : https://hackmd.io/LDI7ekrzREu7WFHZJKooMQ
+- Features : https://hackmd.io/kvj--DTaTmOofjxL5bud-Q
+- Trampoline hook : https://hackmd.io/7SyusRFMR-m06e-nQ2ehDw
 
-Todo : https://hackmd.io/LDI7ekrzREu7WFHZJKooMQ
+## Plus Features
 
-Features : https://hackmd.io/kvj--DTaTmOofjxL5bud-Q
-
-Trampoline hook : https://hackmd.io/7SyusRFMR-m06e-nQ2ehDw
+- Toggle console message
 
 ## Notes
 

@@ -69,9 +69,9 @@ enum Proxy_Platform_e
 
 #define PROXY_LIBRARY PROXY_LIBRARY_SLASH PROXY_LIBRARY_NAME PROXY_LIBRARY_DOT PROXY_LIBRARY_EXT
 
-#define YBEPROXY_NAME "YbeProxy"
-#define YBEPROXY_VERSION "0.19.0 Beta"
-#define YBEPROXY_BY_AUTHOR "by Yberion"
+#define YBEPROXY_NAME "JKA Proxy Plus"
+#define YBEPROXY_VERSION "0.19.1 Beta"
+#define YBEPROXY_BY_AUTHOR "by Tr!Force"
 
 // ==================================================
 // TYPEDEF
@@ -145,6 +145,7 @@ struct Proxy_CVars_t
 	vmCvar_t proxy_sv_maxCallVoteMapRestartValue;
 	vmCvar_t proxy_sv_modelPathLength;
 	vmCvar_t proxy_sv_disableKillCmd;
+	vmCvar_t proxy_sv_consoleMessage; // Tr!Force: [ConsoleMessage] Main cvar
 
 	// get cvars
 	vmCvar_t sv_fps;

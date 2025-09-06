@@ -15,6 +15,7 @@ static cvarTable_t proxyCVarTable[] =
 	{ &proxy.cvars.proxy_sv_maxCallVoteMapRestartValue, "proxy_sv_maxCallVoteMapRestartValue", "60", CVAR_ARCHIVE, 0, qfalse },
 	{ &proxy.cvars.proxy_sv_modelPathLength, "proxy_sv_modelPathLength", "64", CVAR_ARCHIVE, 0, qfalse },
 	{ &proxy.cvars.proxy_sv_disableKillCmd, "proxy_sv_disableKillCmd", "0", CVAR_ARCHIVE, 0, qfalse },
+	{ &proxy.cvars.proxy_sv_consoleMessage, "proxy_sv_consoleMessage", "1", CVAR_ARCHIVE, 0, qfalse }, // Tr!Force: [ConsoleMessage] Main cvar
 
 	// get cvars
 	{ &proxy.cvars.sv_fps, "sv_fps", "20", CVAR_SERVERINFO, 0, qfalse },

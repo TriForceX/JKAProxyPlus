@@ -37,7 +37,7 @@ void Proxy_SharedAPI_GetUsercmd(int clientNum, usercmd_t* ucmd)
 void Proxy_SharedAPI_ClientConnect(int clientNum, qboolean firstTime, qboolean isBot)
 {
 	// Doesn't work on the new API
-	if (firstTime && !isBot)
+	if (firstTime && !isBot && proxy.cvars.proxy_sv_consoleMessage.integer) // Tr!Force: [ConsoleMessage] Cvar check
 	{
 		proxy.trap->SendServerCommand(clientNum, va("print \"^5%s (^7%s^5) %s^7\n\"", YBEPROXY_NAME, YBEPROXY_VERSION, YBEPROXY_BY_AUTHOR));
 	}
