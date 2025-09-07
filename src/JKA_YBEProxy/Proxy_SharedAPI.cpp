@@ -202,7 +202,7 @@ qboolean Proxy_SharedAPI_ClientCommand(int clientNum)
 		return qfalse;
 	}
 
-	if (!Q_stricmpn(cmd, "myratio", 7))
+	if (!Q_stricmpn(cmd, "myratio", 7) && proxy.cvars.proxy_sv_enableMyRatio.integer) // Tr!Force: [MyRatio] Main cvar
 	{
 		Proxy_ClientCommand_MyRatio(clientNum);
 

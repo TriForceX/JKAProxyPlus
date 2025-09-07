@@ -15,6 +15,7 @@ To compile a 32bits version on a 64bits linux distribution add the following def
 ## Plus Features
 
 - Toggle console message
+- Toggle myratio command
 
 ## Notes
 

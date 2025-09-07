@@ -145,7 +145,8 @@ struct Proxy_CVars_t
 	vmCvar_t proxy_sv_maxCallVoteMapRestartValue;
 	vmCvar_t proxy_sv_modelPathLength;
 	vmCvar_t proxy_sv_disableKillCmd;
-	vmCvar_t proxy_sv_consoleMessage; // Tr!Force: [ConsoleMessage] Main cvar
+	vmCvar_t proxy_sv_consoleMessage;	// Tr!Force: [ConsoleMessage] Main cvar
+	vmCvar_t proxy_sv_enableMyRatio;	// Tr!Force: [ConsoleMessage] Main cvar
 
 	// get cvars
 	vmCvar_t sv_fps;
